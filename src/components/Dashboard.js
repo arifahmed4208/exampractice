@@ -41,7 +41,7 @@ const Dashboard = () => {
   }
 
   const loadQuestions = async (loadMore = false) => {
-    const newQuestions = await getQuestions(difficulty, loadMore ? lastLoadedId : null, 2);
+    const newQuestions = await getQuestions(difficulty, loadMore ? lastLoadedId : null, 5);
     if (newQuestions.length === 0 && !loadMore) {
       toast({
         title: 'Questions unavailable',
