@@ -10,7 +10,9 @@ import {
   useColorModeValue,
   Progress,
   Image,
-  Flex, Avatar
+  Spinner,
+  Flex,
+  Avatar
 } from '@chakra-ui/react';
 import { AuthContext } from '../contexts/AuthContext';
 import { getQuestions, saveProgress, getProgress, getTotalQuestionsCount } from '../services/firestore';
@@ -20,6 +22,8 @@ import LoadMoreButton from './LoadMoreButton';
 const Dashboard = () => {
   const [questions, setQuestions] = useState([]);
   const [difficulty, setDifficulty] = useState(1);
+  const [dataLoaded, setLoaded] = useState(true)
+  const [subject, setSubject] = useState('Dermatology');
   const [userProgress, setUserProgress] = useState({});
   const [lastLoadedId, setLastLoadedId] = useState(null);
   const [totalQuestions, setTotalQuestions] = useState(30);
@@ -33,15 +37,19 @@ const Dashboard = () => {
     fetchTotalQuestionCount();
     loadQuestions();
     loadUserProgress();
-  }, [difficulty, user]);
+  }, [difficulty, user, subject]);
 
   const fetchTotalQuestionCount = async () =>{
-    const totalCount = await getTotalQuestionsCount(difficulty);
+    setLoaded(false);
+    const totalCount = await getTotalQuestionsCount(difficulty, subject);
+    setLoaded(true);
     setTotalQuestions(totalCount);
   }
 
   const loadQuestions = async (loadMore = false) => {
-    const newQuestions = await getQuestions(difficulty, loadMore ? lastLoadedId : null, 5);
+    setLoaded(false);
+    const newQuestions = await getQuestions(difficulty, subject, loadMore ? lastLoadedId : null, 5);
+    setLoaded(true);
     if (newQuestions.length === 0 && !loadMore) {
       toast({
         title: 'Questions unavailable',
@@ -70,12 +78,14 @@ const Dashboard = () => {
 
   const loadUserProgress = async () => {
     if (user) {
+      setLoaded(false);
       const progress = await getProgress(user.uid);
       const progressMap = progress.reduce((acc, item) => {
         acc[item.questionId] = item.selectedOptionId;
         return acc;
       }, {});
       setUserProgress(progressMap);
+      setLoaded(true);
     }
   };
 
@@ -84,9 +94,17 @@ const Dashboard = () => {
       setQuestions([]);
     }
     setDifficulty(Number(e.target.value))
-    // setUserProgress({});
     loadUserProgress();
   }
+
+  const handleSubjectChange = (e) =>{
+    if(subject !== e.target.value){
+      setQuestions([]);
+    }
+    setSubject(e.target.value)
+    loadUserProgress();
+  }
+
 
   const answeredQuestionsCount = Object.keys(userProgress).length;
 
@@ -123,7 +141,7 @@ const Dashboard = () => {
            
               <Flex alignItems="center" justifyContent="space-between">
               <Text fontSize="md" mb={2}>
-              Answered: {answeredQuestionsCount}
+              Total Answered: {answeredQuestionsCount}
               </Text>
               <Text fontSize="md" mb={2}>
               Total: {totalQuestions}
@@ -131,9 +149,10 @@ const Dashboard = () => {
               
               </Flex>
               
-            <Progress value={(answeredQuestionsCount / totalQuestions) * 100} size="sm" colorScheme="green" />
+            <Progress hasStripe value={(answeredQuestionsCount / totalQuestions) * 100} size="sm" colorScheme={answeredQuestionsCount!==totalQuestions ? 'pink' : 'green'} />
           </Box>
 
+          <Flex gap={2}>
           <Select
             value={difficulty}
             onChange={(e) => handleDifficultyChange(e)}
@@ -145,6 +164,31 @@ const Dashboard = () => {
             <option value={4}>Insane</option>
           </Select>
 
+          <Select
+            value={subject}
+            onChange={(e) => handleSubjectChange(e)}
+            bg={useColorModeValue('white', 'gray.600')}
+          >
+            <option value={'Dermatology'}>Dermatology</option>
+            <option value={'Microbiology'}>Microbiology</option>
+            <option value={'Medicine'}>Medicine</option>
+            <option value={'Paediatrics'}>Paediatrics</option>
+            <option value={'Obg'}>Obg</option>
+          </Select>
+          </Flex>
+
+          {!dataLoaded && (
+            <Flex justifyContent={'center'}>
+               <Spinner
+                thickness='4px'
+                speed='0.65s'
+                emptyColor='gray.200'
+                color='blue.500'
+                size='xl'
+          />
+            </Flex>
+           
+          )}
           {questions.map((question) => (
             <Question
               key={question.id}

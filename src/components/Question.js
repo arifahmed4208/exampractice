@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { VStack, Text, Radio, RadioGroup, Box, Icon, useColorModeValue } from '@chakra-ui/react';
+import { VStack, Text, Radio, RadioGroup, Box, Icon, useColorModeValue, Tooltip, Flex  } from '@chakra-ui/react';
 import { InfoIcon } from '@chakra-ui/icons';
 
 const Question = ({ question, onSubmit,selectedOption: initialSelectedOption  }) => {
@@ -28,13 +28,24 @@ const Question = ({ question, onSubmit,selectedOption: initialSelectedOption  })
   return (
     <VStack align="start" spacing={4} w="100%" bg={bgColor} p={4} borderRadius="md">
       <Text fontWeight="bold" fontSize="lg">{question.question_name}</Text>
-      <Text>{question.question_description}</Text>
+      {question.question_description && (
+        <Text>{question.question_description}</Text>
+      )}
       <RadioGroup onChange={handleOptionSelect} value={selectedOption}>
         <VStack align="start" spacing={2} w="100%">
           {question.options.map((option) => (
             <Box key={option.id}>
               <Radio value={option.id} isDisabled={showFeedback}>
-                <Text color={getOptionColor(option)}>{option.name}</Text>
+                <Flex gap={2} alignItems={'center'}>
+                  <Text color={getOptionColor(option)}>{option.name}
+                  </Text>
+                  {showFeedback && !option.correct && option.description&&(
+                      <Tooltip label={option.description} fontSize='md'>
+                      <InfoIcon />
+                    </Tooltip>
+                    )}
+                </Flex>
+                
               </Radio>
               {showFeedback && option.correct && option.description && (
                 <Box ml={6} mt={2}>
