@@ -1,0 +1,67 @@
+[
+    {
+      "id": "1",
+      "question_name": "Which condition is characterized by the appearance of silvery scales on the skin?",
+      "question_description": "Identify the dermatological condition that presents with silvery scales.",
+      "difficulty_level": 1,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Psoriasis", "correct": true, "description": "Psoriasis is characterized by silvery scales." },
+        { "id": "b", "name": "Eczema", "correct": false, "description": "Eczema typically presents with red, itchy patches." },
+        { "id": "c", "name": "Rosacea", "correct": false, "description": "Rosacea often causes redness and visible blood vessels." },
+        { "id": "d", "name": "Acne", "correct": false, "description": "Acne involves pimples, blackheads, and whiteheads." }
+      ]
+    },
+    {
+      "id": "2",
+      "question_name": "What is the primary cause of acne?",
+      "question_description": "Identify the main factor contributing to the development of acne.",
+      "difficulty_level": 1,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Fungal Infection", "correct": false, "description": "Acne is not caused by fungal infections." },
+        { "id": "b", "name": "Viral Infection", "correct": false, "description": "Acne is not caused by viral infections." },
+        { "id": "c", "name": "Bacterial Infection", "correct": true, "description": "Acne is primarily caused by bacterial infection of hair follicles." },
+        { "id": "d", "name": "Parasitic Infection", "correct": false, "description": "Acne is not caused by parasitic infections." }
+      ]
+    },
+    {
+      "id": "3",
+      "question_name": "What is the most common cause of contact dermatitis?",
+      "question_description": "Identify the leading cause of contact dermatitis.",
+      "difficulty_level": 1,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Exposure to sunlight", "correct": false, "description": "Sunlight exposure typically causes sunburn, not contact dermatitis." },
+        { "id": "b", "name": "Allergic reaction to substances", "correct": true, "description": "Allergic reactions to substances like poison ivy or certain metals are the most common causes of contact dermatitis." },
+        { "id": "c", "name": "Bacterial infection", "correct": false, "description": "Bacterial infections are not a common cause of contact dermatitis." },
+        { "id": "d", "name": "Viral infection", "correct": false, "description": "Viral infections are not a common cause of contact dermatitis." }
+      ]
+    },
+    {
+      "id": "4",
+      "question_name": "What skin condition is commonly known as atopic dermatitis?",
+      "question_description": "Identify the skin condition also referred to as atopic dermatitis.",
+      "difficulty_level": 1,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Psoriasis", "correct": false, "description": "Psoriasis is a separate condition with distinct features." },
+        { "id": "b", "name": "Eczema", "correct": true, "description": "Atopic dermatitis is commonly known as eczema." },
+        { "id": "c", "name": "Rosacea", "correct": false, "description": "Rosacea is not known as atopic dermatitis." },
+        { "id": "d", "name": "Acne", "correct": false, "description": "Acne is not known as atopic dermatitis." }
+      ]
+    },
+    {
+      "id": "5",
+      "question_name": "Which vitamin deficiency can lead to the development of scaly skin?",
+      "question_description": "Identify the vitamin deficiency that can cause scaly skin.",
+      "difficulty_level": 1,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Vitamin A", "correct": true, "description": "Vitamin A deficiency can lead to xerosis, which manifests as dry, scaly skin." },
+        { "id": "b", "name": "Vitamin C", "correct": false, "description": "Vitamin C deficiency leads to scurvy, which affects gums and skin, but not primarily scaly skin." },
+        { "id": "c", "name": "Vitamin D", "correct": false, "description": "Vitamin D deficiency leads to bone issues rather than scaly skin." },
+        { "id": "d", "name": "Vitamin B12", "correct": false, "description": "Vitamin B12 deficiency typically affects the nervous system rather than causing scaly skin." }
+      ]
+    }
+  ]  

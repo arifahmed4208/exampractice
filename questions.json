@@ -1,0 +1,132 @@
+[
+  {
+    "id": "6",
+    "question_name": "What is the characteristic finding in lichen planus?",
+    "question_description": "Identify the primary clinical feature of lichen planus.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Wickham striae", "correct": true, "description": "Wickham striae are fine white lines on the surface of lichen planus lesions." },
+      { "id": "b", "name": "Butterfly rash", "correct": false, "description": "Butterfly rash is characteristic of lupus erythematosus." },
+      { "id": "c", "name": "Herald patch", "correct": false, "description": "Herald patch is a feature of pityriasis rosea." },
+      { "id": "d", "name": "Koebner phenomenon", "correct": false, "description": "Koebner phenomenon can occur in lichen planus but is not its primary feature." }
+    ]
+  },
+  {
+    "id": "7",
+    "question_name": "Which condition is characterized by target lesions?",
+    "question_description": "Identify the dermatological condition associated with target lesions.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Erythema multiforme", "correct": true, "description": "Erythema multiforme is characterized by target lesions." },
+      { "id": "b", "name": "Psoriasis", "correct": false, "description": "Psoriasis does not typically present with target lesions." },
+      { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus presents with flat-topped, purple papules." },
+      { "id": "d", "name": "Rosacea", "correct": false, "description": "Rosacea is characterized by facial redness and pimples." }
+    ]
+  },
+  {
+    "id": "8",
+    "question_name": "What is the hallmark feature of pemphigus vulgaris?",
+    "question_description": "Identify the primary characteristic of pemphigus vulgaris.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Acantholysis", "correct": true, "description": "Acantholysis, or loss of keratinocyte adhesion, is the hallmark of pemphigus vulgaris." },
+      { "id": "b", "name": "Subepidermal blistering", "correct": false, "description": "Subepidermal blistering is seen in bullous pemphigoid, not pemphigus vulgaris." },
+      { "id": "c", "name": "Hyperkeratosis", "correct": false, "description": "Hyperkeratosis is a feature of chronic eczema and psoriasis." },
+      { "id": "d", "name": "Granuloma formation", "correct": false, "description": "Granuloma formation is seen in conditions like sarcoidosis." }
+    ]
+  },
+  {
+    "id": "9",
+    "question_name": "Which type of hypersensitivity reaction is involved in allergic contact dermatitis?",
+    "question_description": "Identify the type of hypersensitivity reaction responsible for allergic contact dermatitis.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Type I", "correct": false, "description": "Type I hypersensitivity is immediate and includes conditions like anaphylaxis." },
+      { "id": "b", "name": "Type II", "correct": false, "description": "Type II hypersensitivity involves cytotoxic reactions, such as hemolytic anemia." },
+      { "id": "c", "name": "Type III", "correct": false, "description": "Type III hypersensitivity involves immune complexes, seen in conditions like lupus." },
+      { "id": "d", "name": "Type IV", "correct": true, "description": "Type IV hypersensitivity is a delayed reaction, as seen in allergic contact dermatitis." }
+    ]
+  },
+  {
+    "id": "10",
+    "question_name": "What is the primary treatment for scabies?",
+    "question_description": "Identify the most common treatment used for scabies.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Topical steroids", "correct": false, "description": "Topical steroids are not used to treat scabies." },
+      { "id": "b", "name": "Antifungal creams", "correct": false, "description": "Antifungal creams are not effective against scabies mites." },
+      { "id": "c", "name": "Permethrin cream", "correct": true, "description": "Permethrin cream is the first-line treatment for scabies." },
+      { "id": "d", "name": "Oral antibiotics", "correct": false, "description": "Oral antibiotics are not used to treat scabies." }
+    ]
+  },
+  {
+    "id": "11",
+    "question_name": "Which dermatological condition presents with a 'herald patch'?",
+    "question_description": "Identify the condition characterized by the presence of a herald patch.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Pityriasis rosea", "correct": true, "description": "Pityriasis rosea typically begins with a herald patch followed by a generalized rash." },
+      { "id": "b", "name": "Psoriasis", "correct": false, "description": "Psoriasis does not typically begin with a herald patch." },
+      { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus does not present with a herald patch." },
+      { "id": "d", "name": "Erythema multiforme", "correct": false, "description": "Erythema multiforme is characterized by target lesions, not a herald patch." }
+    ]
+  },
+  {
+    "id": "12",
+    "question_name": "Which skin infection is caused by group A Streptococcus?",
+    "question_description": "Identify the skin infection commonly caused by group A Streptococcus.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Impetigo", "correct": true, "description": "Impetigo is commonly caused by group A Streptococcus and presents with honey-colored crusts." },
+      { "id": "b", "name": "Tinea corporis", "correct": false, "description": "Tinea corporis is a fungal infection, not caused by bacteria." },
+      { "id": "c", "name": "Herpes simplex", "correct": false, "description": "Herpes simplex is a viral infection, not caused by bacteria." },
+      { "id": "d", "name": "Scabies", "correct": false, "description": "Scabies is caused by mites, not bacteria." }
+    ]
+  },
+  {
+    "id": "13",
+    "question_name": "Which vitamin deficiency can lead to the development of pellagra?",
+    "question_description": "Identify the vitamin deficiency that causes pellagra.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Vitamin A", "correct": false, "description": "Vitamin A deficiency leads to night blindness and xerosis." },
+      { "id": "b", "name": "Vitamin C", "correct": false, "description": "Vitamin C deficiency leads to scurvy." },
+      { "id": "c", "name": "Niacin (Vitamin B3)", "correct": true, "description": "Niacin deficiency leads to pellagra, characterized by dermatitis, diarrhea, and dementia." },
+      { "id": "d", "name": "Vitamin D", "correct": false, "description": "Vitamin D deficiency leads to rickets and osteomalacia." }
+    ]
+  },
+  {
+    "id": "14",
+    "question_name": "Which dermatological condition is associated with gluten sensitivity?",
+    "question_description": "Identify the condition that is often seen in patients with gluten sensitivity.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Psoriasis", "correct": false, "description": "Psoriasis is not specifically associated with gluten sensitivity." },
+      { "id": "b", "name": "Dermatitis herpetiformis", "correct": true, "description": "Dermatitis herpetiformis is strongly associated with gluten sensitivity and celiac disease." },
+      { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus is not specifically associated with gluten sensitivity." },
+      { "id": "d", "name": "Rosacea", "correct": false, "description": "Rosacea is not specifically associated with gluten sensitivity." }
+    ]
+  },
+  {
+    "id": "15",
+    "question_name": "Which condition is characterized by a 'sandpaper' texture of the skin?",
+    "question_description": "Identify the condition that presents with a rough, sandpaper-like texture on the skin.",
+    "difficulty_level": 2,
+    "subject": "Dermatology",
+    "options": [
+      { "id": "a", "name": "Actinic keratosis", "correct": true, "description": "Actinic keratosis presents with rough, sandpaper-like lesions due to sun damage." },
+      { "id": "b", "name": "Seborrheic dermatitis", "correct": false, "description": "Seborrheic dermatitis presents with greasy, flaky scales, not a sandpaper texture." },
+      { "id": "c", "name": "Psoriasis", "correct": false, "description": "Psoriasis presents with thick, silvery scales, not a sandpaper texture." },
+      { "id": "d", "name": "Tinea versicolor", "correct": false, "description": "Tinea versicolor presents with hypopigmented or hyperpigmented patches, not a sandpaper texture." }
+    ]
+  }
+]
