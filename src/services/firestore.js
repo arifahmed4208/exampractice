@@ -1,4 +1,4 @@
-import { collection, query, where, orderBy, limit, startAfter, getDocs, setDoc, doc } from 'firebase/firestore';
+import { collection, query, where, orderBy, limit, startAfter, getDocs, setDoc, doc, getCountFromServer } from 'firebase/firestore';
 import { db } from './firebase';
 
 export const getQuestions = async (difficulty, lastLoadedId, pageSize) => {
@@ -17,6 +17,16 @@ export const getQuestions = async (difficulty, lastLoadedId, pageSize) => {
   return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
 };
 
+export const getTotalQuestionsCount = async (difficulty) => {
+  const q = query(
+    collection(db, 'exam_questions'),
+    where('difficulty_level', '==', difficulty)
+  );
+
+  const snapshot = await getCountFromServer(q);
+  return snapshot.data().count;
+};
+
 export const saveProgress = async (userId, questionId, selectedOptionId) => {
   await setDoc(doc(db, 'my_progress', `${userId}_${questionId}`), {
     userId,
@@ -24,4 +34,11 @@ export const saveProgress = async (userId, questionId, selectedOptionId) => {
     selectedOptionId,
     timestamp: new Date()
   });
+};
+
+
+export const getProgress = async (userId) => {
+  const q = query(collection(db, 'my_progress'), where('userId', '==', userId));
+  const snapshot = await getDocs(q);
+  return snapshot.docs.map(doc => doc.data());
 };

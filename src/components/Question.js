@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { VStack, Text, Radio, RadioGroup, Box, Icon, useColorModeValue } from '@chakra-ui/react';
 import { InfoIcon } from '@chakra-ui/icons';
 
-const Question = ({ question, onSubmit }) => {
+const Question = ({ question, onSubmit,selectedOption: initialSelectedOption  }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const bgColor = useColorModeValue('gray.100', 'gray.700');
+
+  useEffect(() => {
+    setSelectedOption(initialSelectedOption);
+    setShowFeedback(!!initialSelectedOption);
+  }, [initialSelectedOption]);
 
   const handleOptionSelect = (optionId) => {
     setSelectedOption(optionId);

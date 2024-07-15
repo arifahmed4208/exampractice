@@ -8,18 +8,21 @@ import {
   Text,
   Container,
   useColorModeValue,
+  Progress,
   Image,
   Flex, Avatar
 } from '@chakra-ui/react';
 import { AuthContext } from '../contexts/AuthContext';
-import { getQuestions, saveProgress } from '../services/firestore';
+import { getQuestions, saveProgress, getProgress, getTotalQuestionsCount } from '../services/firestore';
 import Question from './Question';
 import LoadMoreButton from './LoadMoreButton';
 
 const Dashboard = () => {
   const [questions, setQuestions] = useState([]);
   const [difficulty, setDifficulty] = useState(1);
+  const [userProgress, setUserProgress] = useState({});
   const [lastLoadedId, setLastLoadedId] = useState(null);
+  const [totalQuestions, setTotalQuestions] = useState(30);
   const { user } = useContext(AuthContext);
   const toast = useToast();
 
@@ -27,11 +30,18 @@ const Dashboard = () => {
   const containerBg = useColorModeValue('white', 'gray.700');
 
   useEffect(() => {
+    fetchTotalQuestionCount();
     loadQuestions();
-  }, [difficulty]);
+    loadUserProgress();
+  }, [difficulty, user]);
+
+  const fetchTotalQuestionCount = async () =>{
+    const totalCount = await getTotalQuestionsCount(difficulty);
+    setTotalQuestions(totalCount);
+  }
 
   const loadQuestions = async (loadMore = false) => {
-    const newQuestions = await getQuestions(difficulty, lastLoadedId, 2);
+    const newQuestions = await getQuestions(difficulty, loadMore ? lastLoadedId : null, 2);
     if (newQuestions.length === 0 && !loadMore) {
       toast({
         title: 'Questions unavailable',
@@ -58,15 +68,31 @@ const Dashboard = () => {
     }
   };
 
+  const loadUserProgress = async () => {
+    if (user) {
+      const progress = await getProgress(user.uid);
+      const progressMap = progress.reduce((acc, item) => {
+        acc[item.questionId] = item.selectedOptionId;
+        return acc;
+      }, {});
+      setUserProgress(progressMap);
+    }
+  };
+
   const handleDifficultyChange = (e) =>{
     if(difficulty !== e.target.value){
       setQuestions([]);
     }
     setDifficulty(Number(e.target.value))
+    // setUserProgress({});
+    loadUserProgress();
   }
+
+  const answeredQuestionsCount = Object.keys(userProgress).length;
 
   const handleAnswerSubmit = async (questionId, selectedOptionId) => {
     await saveProgress(user.uid, questionId, selectedOptionId);
+    setUserProgress(prev => ({ ...prev, [questionId]: selectedOptionId }));
   };
 
   return (
@@ -94,6 +120,18 @@ const Dashboard = () => {
               )}
               <Text fontSize="lg">Hello, {user?.displayName || 'Student'}!</Text>
             </Flex>
+           
+              <Flex alignItems="center" justifyContent="space-between">
+              <Text fontSize="md" mb={2}>
+              Answered: {answeredQuestionsCount}
+              </Text>
+              <Text fontSize="md" mb={2}>
+              Total: {totalQuestions}
+              </Text>
+              
+              </Flex>
+              
+            <Progress value={(answeredQuestionsCount / totalQuestions) * 100} size="sm" colorScheme="green" />
           </Box>
 
           <Select
@@ -112,6 +150,7 @@ const Dashboard = () => {
               key={question.id}
               question={question}
               onSubmit={handleAnswerSubmit}
+              selectedOption={userProgress[question.id]}
             />
           ))}
 
