@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ExamPrep",
+  "name": "App to prepare for Neet Pg exam",
   "icons": [
     {
       "src": "favicon.ico",
