@@ -17,7 +17,13 @@ const Login = () => {
   const handleGoogleSignIn = async () => {
     try {
       await signInWithGoogle();
-      navigate('/dashboard');
+      navigate('/exampractice/dashboard');
+      toast({
+        title: `Logged in successfully!`,
+        status: 'success',
+        variant:'top-accent',
+        isClosable: true,
+      })
     } catch (error) {
       toast({
         title: `Error signing in with Google`,
@@ -30,7 +36,7 @@ const Login = () => {
   };
 
   if (user) {
-    navigate('/dashboard');
+    navigate('exampractice/dashboard');
     return null;
   }
 

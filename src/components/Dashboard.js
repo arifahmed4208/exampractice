@@ -9,15 +9,28 @@ import {
   Container,
   useColorModeValue,
   Progress,
-  Image,
+  Button,
+  IconButton,
   Spinner,
   Flex,
-  Avatar
+  Icon,
+  useDisclosure,
+  Avatar,
+  AlertDialog,
+  AlertDialogBody,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogContent,
+  AlertDialogOverlay,
+  AlertDialogCloseButton,
 } from '@chakra-ui/react';
 import { AuthContext } from '../contexts/AuthContext';
 import { getQuestions, saveProgress, getProgress, getTotalQuestionsCount } from '../services/firestore';
 import Question from './Question';
+import { TbLogout } from "react-icons/tb";
 import LoadMoreButton from './LoadMoreButton';
+import {logout} from '../services/firebase'
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
   const [questions, setQuestions] = useState([]);
@@ -29,6 +42,9 @@ const Dashboard = () => {
   const [totalQuestions, setTotalQuestions] = useState(30);
   const { user } = useContext(AuthContext);
   const toast = useToast();
+  const navigate = useNavigate();
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const cancelRef = React.useRef()
 
   const bgColor = useColorModeValue('gray.50', 'gray.800');
   const containerBg = useColorModeValue('white', 'gray.700');
@@ -113,6 +129,28 @@ const Dashboard = () => {
     setUserProgress(prev => ({ ...prev, [questionId]: selectedOptionId }));
   };
 
+  const handleSignout = async () => {
+    try {
+      await logout();
+      localStorage.clear();
+      navigate('/exampractice');
+      toast({
+        title: `Logged out successfully!`,
+        status: 'success',
+        variant:'top-accent',
+        isClosable: true,
+      })
+    } catch (error) {
+      toast({
+        title: `Error logging out. Try again later!`,
+        status: 'error',
+        variant:'top-accent',
+        isClosable: true,
+      })
+      console.error('Error signing out', error);
+    }
+  };
+
   return (
     <Box
       minH="100vh"
@@ -126,16 +164,28 @@ const Dashboard = () => {
       <Container maxW="4xl" bg={containerBg} borderRadius="xl" boxShadow="xl" p={6}>
         <VStack spacing={8} align="stretch">
           <Box textAlign="center">
-            <Heading size="xl" mb={2}>NEET PG | Practise</Heading>
-            <Flex alignItems="center" justifyContent="center">
+            <Flex justifyContent={'space-between'}>
               {user?.photoURL && (
-                <Avatar 
-                  src={user.photoURL} 
-                  size="md" 
-                  mr={3}
-                  name={user.displayName || 'User'}
-                />
-              )}
+                  <Avatar 
+                    src={user.photoURL} 
+                    size="md" 
+                    mr={3}
+                    name={user.displayName || 'User'}
+                  />
+                )}
+              <Heading size="xl" mb={2}>NEET PG | Practise</Heading>
+              <IconButton
+                isRound={true}
+                variant='outline'
+                colorScheme='pink'
+                aria-label='Logout'
+                onClick={onOpen}
+                icon={<Icon as={TbLogout} />}
+              />
+            </Flex>
+            
+            <Flex alignItems="center" justifyContent="center">
+              
               <Text fontSize="lg">Hello, {user?.displayName || 'Student'}!</Text>
             </Flex>
            
@@ -202,6 +252,32 @@ const Dashboard = () => {
             <LoadMoreButton onClick={() => loadQuestions(true)} />
           </Box>
         </VStack>
+
+        <AlertDialog
+        motionPreset='slideInBottom'
+        leastDestructiveRef={cancelRef}
+        onClose={onClose}
+        isOpen={isOpen}
+        isCentered
+      >
+        <AlertDialogOverlay />
+
+        <AlertDialogContent>
+          <AlertDialogHeader>Logout?</AlertDialogHeader>
+          <AlertDialogCloseButton />
+          <AlertDialogBody>
+            Are you sure you want to logout?
+          </AlertDialogBody>
+          <AlertDialogFooter>
+            <Button colorScheme='pink' ref={cancelRef} onClick={onClose}>
+              No
+            </Button>
+            <Button ml={3} onClick={handleSignout}>
+              Yes
+            </Button>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
       </Container>
     </Box>
   );
