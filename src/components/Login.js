@@ -17,7 +17,7 @@ const Login = () => {
   const handleGoogleSignIn = async () => {
     try {
       await signInWithGoogle();
-      navigate('/exampractice/dashboard');
+      navigate('dashboard');
       toast({
         title: `Logged in successfully!`,
         status: 'success',
@@ -36,7 +36,7 @@ const Login = () => {
   };
 
   if (user) {
-    navigate('exampractice/dashboard');
+    navigate('dashboard');
     return null;
   }
 

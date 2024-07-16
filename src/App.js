@@ -13,9 +13,11 @@ function App() {
       <AuthProvider>
         <Router>
           <Routes>
-          <Route path="/exampractice" element={<Login />} />
-            <Route path="/" element={<Login />} />
-            <Route path="/exampractice/dashboard" element={<Dashboard />} />
+            <Route path="/exampractice">
+              <Route index element={<Login />}></Route>
+              <Route path="dashboard" element={<Dashboard />} />
+            </Route>
+            
           </Routes>
         </Router>
       </AuthProvider>
