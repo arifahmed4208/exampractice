@@ -63,5 +63,1420 @@
         { "id": "c", "name": "Vitamin D", "correct": false, "description": "Vitamin D deficiency leads to bone issues rather than scaly skin." },
         { "id": "d", "name": "Vitamin B12", "correct": false, "description": "Vitamin B12 deficiency typically affects the nervous system rather than causing scaly skin." }
       ]
+    },
+    {
+      "id": "6",
+      "question_name": "What is the characteristic finding in lichen planus?",
+      "question_description": "Identify the primary clinical feature of lichen planus.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Wickham striae", "correct": true, "description": "Wickham striae are fine white lines on the surface of lichen planus lesions." },
+        { "id": "b", "name": "Butterfly rash", "correct": false, "description": "Butterfly rash is characteristic of lupus erythematosus." },
+        { "id": "c", "name": "Herald patch", "correct": false, "description": "Herald patch is a feature of pityriasis rosea." },
+        { "id": "d", "name": "Koebner phenomenon", "correct": false, "description": "Koebner phenomenon can occur in lichen planus but is not its primary feature." }
+      ]
+    },
+    {
+      "id": "7",
+      "question_name": "Which condition is characterized by target lesions?",
+      "question_description": "Identify the dermatological condition associated with target lesions.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Erythema multiforme", "correct": true, "description": "Erythema multiforme is characterized by target lesions." },
+        { "id": "b", "name": "Psoriasis", "correct": false, "description": "Psoriasis does not typically present with target lesions." },
+        { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus presents with flat-topped, purple papules." },
+        { "id": "d", "name": "Rosacea", "correct": false, "description": "Rosacea is characterized by facial redness and pimples." }
+      ]
+    },
+    {
+      "id": "8",
+      "question_name": "What is the hallmark feature of pemphigus vulgaris?",
+      "question_description": "Identify the primary characteristic of pemphigus vulgaris.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Acantholysis", "correct": true, "description": "Acantholysis, or loss of keratinocyte adhesion, is the hallmark of pemphigus vulgaris." },
+        { "id": "b", "name": "Subepidermal blistering", "correct": false, "description": "Subepidermal blistering is seen in bullous pemphigoid, not pemphigus vulgaris." },
+        { "id": "c", "name": "Hyperkeratosis", "correct": false, "description": "Hyperkeratosis is a feature of chronic eczema and psoriasis." },
+        { "id": "d", "name": "Granuloma formation", "correct": false, "description": "Granuloma formation is seen in conditions like sarcoidosis." }
+      ]
+    },
+    {
+      "id": "9",
+      "question_name": "Which type of hypersensitivity reaction is involved in allergic contact dermatitis?",
+      "question_description": "Identify the type of hypersensitivity reaction responsible for allergic contact dermatitis.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Type I", "correct": false, "description": "Type I hypersensitivity is immediate and includes conditions like anaphylaxis." },
+        { "id": "b", "name": "Type II", "correct": false, "description": "Type II hypersensitivity involves cytotoxic reactions, such as hemolytic anemia." },
+        { "id": "c", "name": "Type III", "correct": false, "description": "Type III hypersensitivity involves immune complexes, seen in conditions like lupus." },
+        { "id": "d", "name": "Type IV", "correct": true, "description": "Type IV hypersensitivity is a delayed reaction, as seen in allergic contact dermatitis." }
+      ]
+    },
+    {
+      "id": "10",
+      "question_name": "What is the primary treatment for scabies?",
+      "question_description": "Identify the most common treatment used for scabies.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Topical steroids", "correct": false, "description": "Topical steroids are not used to treat scabies." },
+        { "id": "b", "name": "Antifungal creams", "correct": false, "description": "Antifungal creams are not effective against scabies mites." },
+        { "id": "c", "name": "Permethrin cream", "correct": true, "description": "Permethrin cream is the first-line treatment for scabies." },
+        { "id": "d", "name": "Oral antibiotics", "correct": false, "description": "Oral antibiotics are not used to treat scabies." }
+      ]
+    },
+    {
+      "id": "11",
+      "question_name": "Which dermatological condition presents with a 'herald patch'?",
+      "question_description": "Identify the condition characterized by the presence of a herald patch.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Pityriasis rosea", "correct": true, "description": "Pityriasis rosea typically begins with a herald patch followed by a generalized rash." },
+        { "id": "b", "name": "Psoriasis", "correct": false, "description": "Psoriasis does not typically begin with a herald patch." },
+        { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus does not present with a herald patch." },
+        { "id": "d", "name": "Erythema multiforme", "correct": false, "description": "Erythema multiforme is characterized by target lesions, not a herald patch." }
+      ]
+    },
+    {
+      "id": "12",
+      "question_name": "Which skin infection is caused by group A Streptococcus?",
+      "question_description": "Identify the skin infection commonly caused by group A Streptococcus.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Impetigo", "correct": true, "description": "Impetigo is commonly caused by group A Streptococcus and presents with honey-colored crusts." },
+        { "id": "b", "name": "Tinea corporis", "correct": false, "description": "Tinea corporis is a fungal infection, not caused by bacteria." },
+        { "id": "c", "name": "Herpes simplex", "correct": false, "description": "Herpes simplex is a viral infection, not caused by bacteria." },
+        { "id": "d", "name": "Scabies", "correct": false, "description": "Scabies is caused by mites, not bacteria." }
+      ]
+    },
+    {
+      "id": "13",
+      "question_name": "Which vitamin deficiency can lead to the development of pellagra?",
+      "question_description": "Identify the vitamin deficiency that causes pellagra.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Vitamin A", "correct": false, "description": "Vitamin A deficiency leads to night blindness and xerosis." },
+        { "id": "b", "name": "Vitamin C", "correct": false, "description": "Vitamin C deficiency leads to scurvy." },
+        { "id": "c", "name": "Niacin (Vitamin B3)", "correct": true, "description": "Niacin deficiency leads to pellagra, characterized by dermatitis, diarrhea, and dementia." },
+        { "id": "d", "name": "Vitamin D", "correct": false, "description": "Vitamin D deficiency leads to rickets and osteomalacia." }
+      ]
+    },
+    {
+      "id": "14",
+      "question_name": "Which dermatological condition is associated with gluten sensitivity?",
+      "question_description": "Identify the condition that is often seen in patients with gluten sensitivity.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Psoriasis", "correct": false, "description": "Psoriasis is not specifically associated with gluten sensitivity." },
+        { "id": "b", "name": "Dermatitis herpetiformis", "correct": true, "description": "Dermatitis herpetiformis is strongly associated with gluten sensitivity and celiac disease." },
+        { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus is not specifically associated with gluten sensitivity." },
+        { "id": "d", "name": "Rosacea", "correct": false, "description": "Rosacea is not specifically associated with gluten sensitivity." }
+      ]
+    },
+    {
+      "id": "15",
+      "question_name": "Which condition is characterized by a 'sandpaper' texture of the skin?",
+      "question_description": "Identify the condition that presents with a rough, sandpaper-like texture on the skin.",
+      "difficulty_level": 2,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Actinic keratosis", "correct": true, "description": "Actinic keratosis presents with rough, sandpaper-like lesions due to sun damage." },
+        { "id": "b", "name": "Seborrheic dermatitis", "correct": false, "description": "Seborrheic dermatitis presents with greasy, flaky scales, not a sandpaper texture." },
+        { "id": "c", "name": "Psoriasis", "correct": false, "description": "Psoriasis presents with thick, silvery scales, not a sandpaper texture." },
+        { "id": "d", "name": "Tinea versicolor", "correct": false, "description": "Tinea versicolor presents with hypopigmented or hyperpigmented patches, not a sandpaper texture." }
+      ]
+    },
+    {
+      "id": "16",
+      "question_name": "What is the primary cause of erythroderma in adults?",
+      "question_description": "Identify the most common cause of erythroderma in adult patients.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Psoriasis", "correct": true, "description": "Psoriasis is the most common cause of erythroderma in adults." },
+        { "id": "b", "name": "Eczema", "correct": false, "description": "Eczema can cause erythroderma, but it is not the most common cause." },
+        { "id": "c", "name": "Drug reaction", "correct": false, "description": "Drug reactions can lead to erythroderma but are less common than psoriasis." },
+        { "id": "d", "name": "Lymphoma", "correct": false, "description": "Lymphoma can cause erythroderma but is less common compared to psoriasis." }
+      ]
+    },
+    {
+      "id": "17",
+      "question_name": "Which genetic disorder is characterized by the presence of multiple basal cell carcinomas?",
+      "question_description": "Identify the genetic disorder associated with multiple basal cell carcinomas.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Gorlin syndrome", "correct": true, "description": "Gorlin syndrome, or basal cell nevus syndrome, is characterized by multiple basal cell carcinomas." },
+        { "id": "b", "name": "Gardner syndrome", "correct": false, "description": "Gardner syndrome is associated with colonic polyps and osteomas, not basal cell carcinomas." },
+        { "id": "c", "name": "Neurofibromatosis", "correct": false, "description": "Neurofibromatosis is associated with neurofibromas, not basal cell carcinomas." },
+        { "id": "d", "name": "Peutz-Jeghers syndrome", "correct": false, "description": "Peutz-Jeghers syndrome is associated with gastrointestinal polyps and mucocutaneous pigmentation, not basal cell carcinomas." }
+      ]
+    },
+    {
+      "id": "18",
+      "question_name": "Which autoimmune blistering disorder is characterized by IgG antibodies against desmoglein?",
+      "question_description": "Identify the autoimmune blistering disorder with IgG antibodies against desmoglein.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Pemphigus vulgaris", "correct": true, "description": "Pemphigus vulgaris is characterized by IgG antibodies against desmoglein, leading to intraepidermal blistering." },
+        { "id": "b", "name": "Bullous pemphigoid", "correct": false, "description": "Bullous pemphigoid is associated with antibodies against hemidesmosomes, not desmoglein." },
+        { "id": "c", "name": "Dermatitis herpetiformis", "correct": false, "description": "Dermatitis herpetiformis is associated with IgA antibodies against tissue transglutaminase." },
+        { "id": "d", "name": "Epidermolysis bullosa", "correct": false, "description": "Epidermolysis bullosa is a genetic disorder, not an autoimmune condition with IgG antibodies against desmoglein." }
+      ]
+    },
+    {
+      "id": "19",
+      "question_name": "What is the most common type of cutaneous T-cell lymphoma?",
+      "question_description": "Identify the most common type of cutaneous T-cell lymphoma.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Mycosis fungoides", "correct": true, "description": "Mycosis fungoides is the most common type of cutaneous T-cell lymphoma." },
+        { "id": "b", "name": "Sezary syndrome", "correct": false, "description": "Sezary syndrome is a leukemic variant of cutaneous T-cell lymphoma but is less common than mycosis fungoides." },
+        { "id": "c", "name": "Primary cutaneous anaplastic large cell lymphoma", "correct": false, "description": "Primary cutaneous anaplastic large cell lymphoma is a type of cutaneous T-cell lymphoma but less common than mycosis fungoides." },
+        { "id": "d", "name": "Lymphomatoid papulosis", "correct": false, "description": "Lymphomatoid papulosis is a type of cutaneous T-cell lymphoma but is considered less common and less aggressive." }
+      ]
+    },
+    {
+      "id": "20",
+      "question_name": "Which dermatologic condition is associated with gluten-sensitive enteropathy?",
+      "question_description": "Identify the skin condition linked with gluten-sensitive enteropathy.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Dermatitis herpetiformis", "correct": true, "description": "Dermatitis herpetiformis is strongly associated with gluten-sensitive enteropathy (celiac disease)." },
+        { "id": "b", "name": "Psoriasis", "correct": false, "description": "Psoriasis is not specifically associated with gluten-sensitive enteropathy." },
+        { "id": "c", "name": "Lichen planus", "correct": false, "description": "Lichen planus is not specifically associated with gluten-sensitive enteropathy." },
+        { "id": "d", "name": "Vitiligo", "correct": false, "description": "Vitiligo is an autoimmune condition but not specifically associated with gluten-sensitive enteropathy." }
+      ]
+    },
+    {
+      "id": "21",
+      "question_name": "What is the treatment of choice for localized cutaneous leishmaniasis?",
+      "question_description": "Identify the preferred treatment for localized cutaneous leishmaniasis.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Pentavalent antimonials", "correct": true, "description": "Pentavalent antimonials are the treatment of choice for localized cutaneous leishmaniasis." },
+        { "id": "b", "name": "Oral itraconazole", "correct": false, "description": "Oral itraconazole is used for fungal infections, not typically for leishmaniasis." },
+        { "id": "c", "name": "Topical steroids", "correct": false, "description": "Topical steroids are not used to treat cutaneous leishmaniasis." },
+        { "id": "d", "name": "Oral acyclovir", "correct": false, "description": "Oral acyclovir is used for viral infections, not for leishmaniasis." }
+      ]
+    },
+    {
+      "id": "22",
+      "question_name": "What is the most common cause of erythema nodosum?",
+      "question_description": "Identify the most common cause of erythema nodosum.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Streptococcal infection", "correct": true, "description": "Streptococcal infections are the most common cause of erythema nodosum." },
+        { "id": "b", "name": "Tuberculosis", "correct": false, "description": "Tuberculosis can cause erythema nodosum but is less common than streptococcal infections." },
+        { "id": "c", "name": "Sarcoidosis", "correct": false, "description": "Sarcoidosis can cause erythema nodosum but is less common than streptococcal infections." },
+        { "id": "d", "name": "Inflammatory bowel disease", "correct": false, "description": "Inflammatory bowel disease can cause erythema nodosum but is less common than streptococcal infections." }
+      ]
+    },
+    {
+      "id": "23",
+      "question_name": "Which condition is associated with the Auspitz sign?",
+      "question_description": "Identify the dermatologic condition associated with the Auspitz sign.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Psoriasis", "correct": true, "description": "The Auspitz sign, where bleeding points appear when scales are removed, is characteristic of psoriasis." },
+        { "id": "b", "name": "Lichen planus", "correct": false, "description": "Lichen planus is not associated with the Auspitz sign." },
+        { "id": "c", "name": "Pityriasis rosea", "correct": false, "description": "Pityriasis rosea is not associated with the Auspitz sign." },
+        { "id": "d", "name": "Seborrheic dermatitis", "correct": false, "description": "Seborrheic dermatitis is not associated with the Auspitz sign." }
+      ]
+    },
+    {
+      "id": "24",
+      "question_name": "Which infection is known to cause Kaposi's sarcoma?",
+      "question_description": "Identify the infectious agent associated with Kaposi's sarcoma.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Human herpesvirus 8 (HHV-8)", "correct": true, "description": "Human herpesvirus 8 (HHV-8) is the causative agent of Kaposi's sarcoma." },
+        { "id": "b", "name": "Epstein-Barr virus (EBV)", "correct": false, "description": "Epstein-Barr virus (EBV) is associated with Burkitt's lymphoma and nasopharyngeal carcinoma, not Kaposi's sarcoma." },
+        { "id": "c", "name": "Human papillomavirus (HPV)", "correct": false, "description": "Human papillomavirus (HPV) is associated with cervical cancer and warts, not Kaposi's sarcoma." },
+        { "id": "d", "name": "Cytomegalovirus (CMV)", "correct": false, "description": "Cytomegalovirus (CMV) is associated with various infections, particularly in immunocompromised individuals, but not specifically with Kaposi's sarcoma." }
+      ]
+    },
+    {
+      "id": "25",
+      "question_name": "What is the hallmark of lichen sclerosus?",
+      "question_description": "Identify the characteristic feature of lichen sclerosus.",
+      "difficulty_level": 3,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "White, atrophic patches", "correct": true, "description": "Lichen sclerosus is characterized by white, atrophic patches on the skin, often in the genital area." },
+        { "id": "b", "name": "Hyperpigmented macules", "correct": false, "description": "Hyperpigmented macules are not characteristic of lichen sclerosus." },
+        { "id": "c", "name": "Bullous eruptions", "correct": false, "description": "Bullous eruptions are not characteristic of lichen sclerosus." },
+        { "id": "d", "name": "Erythematous plaques", "correct": false, "description": "Erythematous plaques are not characteristic of lichen sclerosus." }
+      ]
+    },
+    {
+      "id": "26",
+      "question_name": "Which genetic mutation is most commonly associated with Hailey-Hailey disease?",
+      "question_description": "Identify the genetic mutation commonly linked to Hailey-Hailey disease.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "ATP2C1", "correct": true, "description": "Hailey-Hailey disease is caused by mutations in the ATP2C1 gene." },
+        { "id": "b", "name": "KRT1", "correct": false, "description": "Mutations in KRT1 are associated with epidermolytic hyperkeratosis, not Hailey-Hailey disease." },
+        { "id": "c", "name": "COL7A1", "correct": false, "description": "Mutations in COL7A1 are associated with dystrophic epidermolysis bullosa." },
+        { "id": "d", "name": "GJB2", "correct": false, "description": "Mutations in GJB2 are associated with certain forms of deafness, not Hailey-Hailey disease." }
+      ]
+    },
+    {
+      "id": "27",
+      "question_name": "Which type of lupus erythematosus is characterized by the presence of chilblains?",
+      "question_description": "Identify the type of lupus erythematosus that presents with chilblains.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Chilblain lupus erythematosus", "correct": true, "description": "Chilblain lupus erythematosus presents with painful red or purplish lesions on the fingers, toes, and other extremities." },
+        { "id": "b", "name": "Subacute cutaneous lupus erythematosus", "correct": false, "description": "Subacute cutaneous lupus erythematosus typically presents with photosensitive annular or psoriasiform lesions." },
+        { "id": "c", "name": "Discoid lupus erythematosus", "correct": false, "description": "Discoid lupus erythematosus presents with chronic, scarring plaques, typically on the face and scalp." },
+        { "id": "d", "name": "Systemic lupus erythematosus", "correct": false, "description": "Systemic lupus erythematosus can affect multiple organs and systems, including the skin, but chilblains are not a characteristic feature." }
+      ]
+    },
+    {
+      "id": "28",
+      "question_name": "Which cutaneous manifestation is most commonly associated with systemic sclerosis?",
+      "question_description": "Identify the cutaneous manifestation commonly linked to systemic sclerosis.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Sclerodactyly", "correct": true, "description": "Sclerodactyly, or tightening of the skin on the fingers and hands, is a hallmark of systemic sclerosis." },
+        { "id": "b", "name": "Gottron's papules", "correct": false, "description": "Gottron's papules are characteristic of dermatomyositis, not systemic sclerosis." },
+        { "id": "c", "name": "Erythema nodosum", "correct": false, "description": "Erythema nodosum is associated with a variety of conditions, including infections and inflammatory diseases, but not specifically with systemic sclerosis." },
+        { "id": "d", "name": "Acanthosis nigricans", "correct": false, "description": "Acanthosis nigricans is typically associated with insulin resistance and other conditions, not systemic sclerosis." }
+      ]
+    },
+    {
+      "id": "29",
+      "question_name": "Which drug is most likely to induce a lichenoid drug eruption?",
+      "question_description": "Identify the drug commonly known to cause lichenoid drug eruptions.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Gold salts", "correct": true, "description": "Gold salts, used in the treatment of rheumatoid arthritis, can cause lichenoid drug eruptions." },
+        { "id": "b", "name": "Ciprofloxacin", "correct": false, "description": "Ciprofloxacin can cause various cutaneous side effects, but lichenoid drug eruptions are not typical." },
+        { "id": "c", "name": "Isotretinoin", "correct": false, "description": "Isotretinoin can cause dryness and other skin changes but not typically lichenoid drug eruptions." },
+        { "id": "d", "name": "Aspirin", "correct": false, "description": "Aspirin is not commonly associated with lichenoid drug eruptions." }
+      ]
+    },
+    {
+      "id": "30",
+      "question_name": "What is the primary defect in X-linked ichthyosis?",
+      "question_description": "Identify the primary defect responsible for X-linked ichthyosis.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Steroid sulfatase deficiency", "correct": true, "description": "X-linked ichthyosis is caused by a deficiency in the enzyme steroid sulfatase." },
+        { "id": "b", "name": "Filaggrin mutation", "correct": false, "description": "Filaggrin mutations are associated with ichthyosis vulgaris, not X-linked ichthyosis." },
+        { "id": "c", "name": "Keratin 1 mutation", "correct": false, "description": "Keratin 1 mutations are associated with epidermolytic hyperkeratosis." },
+        { "id": "d", "name": "Transglutaminase 1 deficiency", "correct": false, "description": "Transglutaminase 1 deficiency is associated with lamellar ichthyosis." }
+      ]
+    },
+    {
+      "id": "31",
+      "question_name": "Which antibody is most specific for systemic lupus erythematosus?",
+      "question_description": "Identify the antibody most specific for diagnosing systemic lupus erythematosus.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Anti-Smith antibody", "correct": true, "description": "Anti-Smith (anti-Sm) antibody is highly specific for systemic lupus erythematosus." },
+        { "id": "b", "name": "Anti-Ro antibody", "correct": false, "description": "Anti-Ro (SSA) antibodies are associated with both systemic lupus erythematosus and Sjogren's syndrome but are less specific." },
+        { "id": "c", "name": "Anti-dsDNA antibody", "correct": false, "description": "Anti-dsDNA antibodies are highly specific and correlate with disease activity in systemic lupus erythematosus but are less specific than anti-Sm." },
+        { "id": "d", "name": "Anti-centromere antibody", "correct": false, "description": "Anti-centromere antibodies are associated with limited cutaneous systemic sclerosis (CREST syndrome), not systemic lupus erythematosus." }
+      ]
+    },
+    {
+      "id": "32",
+      "question_name": "Which type of porphyria is most commonly associated with blistering skin lesions?",
+      "question_description": "Identify the type of porphyria that typically presents with blistering skin lesions.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Porphyria cutanea tarda", "correct": true, "description": "Porphyria cutanea tarda is characterized by blistering lesions on sun-exposed areas." },
+        { "id": "b", "name": "Acute intermittent porphyria", "correct": false, "description": "Acute intermittent porphyria typically does not present with cutaneous manifestations." },
+        { "id": "c", "name": "Erythropoietic protoporphyria", "correct": false, "description": "Erythropoietic protoporphyria presents with photosensitivity but not typically with blistering." },
+        { "id": "d", "name": "Hereditary coproporphyria", "correct": false, "description": "Hereditary coproporphyria can have cutaneous manifestations, but blistering is more characteristic of porphyria cutanea tarda." }
+      ]
+    },
+    {
+      "id": "33",
+      "question_name": "What is the characteristic histological finding in bullous pemphigoid?",
+      "question_description": "Identify the characteristic histological finding seen in bullous pemphigoid.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Subepidermal blister with eosinophils", "correct": true, "description": "Bullous pemphigoid is characterized by a subepidermal blister with eosinophils on histological examination." },
+        { "id": "b", "name": "Acantholysis with intraepidermal blister", "correct": false, "description": "Acantholysis with intraepidermal blister is characteristic of pemphigus vulgaris, not bullous pemphigoid." },
+        { "id": "c", "name": "Lymphocytic infiltrate in the dermis", "correct": false, "description": "A lymphocytic infiltrate in the dermis is seen in lichen planus, not bullous pemphigoid." },
+        { "id": "d", "name": "Epidermal hyperplasia with parakeratosis", "correct": false, "description": "Epidermal hyperplasia with parakeratosis is characteristic of psoriasis, not bullous pemphigoid." }
+      ]
+    },
+    {
+      "id": "34",
+      "question_name": "Which dermatologic condition is characterized by 'oil drop' sign on dermoscopy?",
+      "question_description": "Identify the dermatologic condition characterized by 'oil drop' sign on dermoscopy.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Seborrheic keratosis", "correct": true, "description": "Seborrheic keratosis is characterized by the 'oil drop' sign on dermoscopy, which corresponds to milia-like cysts within the lesion." },
+        { "id": "b", "name": "Dermatofibroma", "correct": false, "description": "Dermatofibroma typically shows a central white scar-like patch on dermoscopy, known as 'central white patch' sign." },
+        { "id": "c", "name": "Basal cell carcinoma", "correct": false, "description": "Basal cell carcinoma may show arborizing vessels on dermoscopy, but not specifically the 'oil drop' sign." },
+        { "id": "d", "name": "Melanoma", "correct": false, "description": "Melanoma can show irregular pigment network or asymmetric structures on dermoscopy, but not the 'oil drop' sign." }
+      ]
+    },
+    {
+      "id": "35",
+      "question_name": "Which skin condition presents with 'dew drops on a rose petal' appearance on diascopy?",
+      "question_description": "Identify the skin condition characterized by 'dew drops on a rose petal' appearance on diascopy.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Vitiligo", "correct": true, "description": "Vitiligo presents with 'dew drops on a rose petal' appearance on diascopy, which is due to depigmented macules with underlying normal capillaries." },
+        { "id": "b", "name": "Pityriasis versicolor", "correct": false, "description": "Pityriasis versicolor typically shows fine, scaly, hypo- or hyperpigmented macules on diascopy, but not 'dew drops on a rose petal' appearance." },
+        { "id": "c", "name": "Tinea corporis", "correct": false, "description": "Tinea corporis presents with erythematous annular lesions with central clearing on diascopy, not 'dew drops on a rose petal' appearance." },
+        { "id": "d", "name": "Lichen planus", "correct": false, "description": "Lichen planus may show Wickham's striae under diascopy, but not specifically 'dew drops on a rose petal' appearance." }
+      ]
+    },
+    {
+      "id": "36",
+      "question_name": "Which skin disorder is associated with anti-desmoglein antibodies?",
+      "question_description": "Identify the skin disorder associated with antibodies against desmogleins.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Pemphigus vulgaris", "correct": true, "description": "Pemphigus vulgaris is characterized by antibodies against desmoglein 1 and desmoglein 3." },
+        { "id": "b", "name": "Bullous pemphigoid", "correct": false, "description": "Bullous pemphigoid is associated with antibodies against BP180 and BP230 antigens." },
+        { "id": "c", "name": "Dermatitis herpetiformis", "correct": false, "description": "Dermatitis herpetiformis is associated with antibodies against epidermal transglutaminase." },
+        { "id": "d", "name": "Linear IgA dermatosis", "correct": false, "description": "Linear IgA dermatosis is associated with antibodies against basement membrane zone antigens." }
+      ]
+    },
+    {
+      "id": "37",
+      "question_name": "Which condition is characterized by small, white papules on the buccal mucosa, along with reticulated white lines?",
+      "question_description": "Identify the condition characterized by white papules on the buccal mucosa and reticulated white lines.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Lichen planus", "correct": true, "description": "Oral lichen planus presents with white papules on the buccal mucosa and reticulated white lines (Wickham's striae)." },
+        { "id": "b", "name": "Oral leukoplakia", "correct": false, "description": "Oral leukoplakia presents as white patches or plaques on the oral mucosa but does not typically have reticulated lines." },
+        { "id": "c", "name": "Oral candidiasis", "correct": false, "description": "Oral candidiasis presents with white, curd-like patches that can be wiped off, not reticulated white lines." },
+        { "id": "d", "name": "Erythema multiforme", "correct": false, "description": "Erythema multiforme presents with targetoid lesions on the skin and mucous membranes, not white papules and lines." }
+      ]
+    },
+    {
+      "id": "38",
+      "question_name": "Which vasculitis primarily affects medium-sized vessels and is associated with livedo reticularis?",
+      "question_description": "Identify the vasculitis primarily affecting medium-sized vessels and associated with livedo reticularis.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Polyarteritis nodosa", "correct": true, "description": "Polyarteritis nodosa primarily affects medium-sized arteries and is associated with livedo reticularis." },
+        { "id": "b", "name": "Granulomatosis with polyangiitis", "correct": false, "description": "Granulomatosis with polyangiitis (Wegener's) affects small vessels and is associated with granulomatous inflammation." },
+        { "id": "c", "name": "Microscopic polyangiitis", "correct": false, "description": "Microscopic polyangiitis affects small vessels and is associated with pauci-immune glomerulonephritis." },
+        { "id": "d", "name": "Kawasaki disease", "correct": false, "description": "Kawasaki disease primarily affects medium-sized arteries and is associated with mucocutaneous lymph node syndrome." }
+      ]
+    },
+    {
+      "id": "39",
+      "question_name": "Which cutaneous feature is characteristic of dermatomyositis?",
+      "question_description": "Identify the characteristic cutaneous feature of dermatomyositis.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Gottron's papules", "correct": true, "description": "Gottron's papules are characteristic papules overlying the joints, especially the metacarpophalangeal and interphalangeal joints, in dermatomyositis." },
+        { "id": "b", "name": "Heliotrope rash", "correct": false, "description": "Heliotrope rash is a violaceous rash on the eyelids in dermatomyositis." },
+        { "id": "c", "name": "Erythema multiforme", "correct": false, "description": "Erythema multiforme presents with targetoid lesions and is associated with infections and drug reactions." },
+        { "id": "d", "name": "Morphea", "correct": false, "description": "Morphea presents with localized scleroderma and typically lacks systemic involvement seen in dermatomyositis." }
+      ]
+    },
+    {
+      "id": "40",
+      "question_name": "Which condition is associated with the presence of a 'deck-chair' sign on Wood's lamp examination?",
+      "question_description": "Identify the condition associated with a 'deck-chair' sign under Wood's lamp.",
+      "difficulty_level": 4,
+      "subject": "Dermatology",
+      "options": [
+        { "id": "a", "name": "Tinea versicolor", "correct": true, "description": "Tinea versicolor is characterized by hypopigmented or hyperpigmented macules that fluoresce under Wood's lamp, producing a 'deck-chair' or 'bran-like' appearance." },
+        { "id": "b", "name": "Vitiligo", "correct": false, "description": "Vitiligo presents with depigmented macules that do not fluoresce under Wood's lamp." },
+        { "id": "c", "name": "Pityriasis rosea", "correct": false, "description": "Pityriasis rosea presents with a herald patch and does not typically fluoresce under Wood's lamp." },
+        { "id": "d", "name": "Erythrasma", "correct": false, "description": "Erythrasma is characterized by coral-red fluorescence under Wood's lamp due to porphyrins produced by Corynebacterium minutissimum." }
+      ]
+    },
+    {
+      "id": "41",
+      "question_name": "Which bacterium is responsible for causing tuberculosis?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Mycobacterium tuberculosis", "correct": true },
+        { "id": "b", "name": "Staphylococcus aureus", "correct": false },
+        { "id": "c", "name": "Escherichia coli", "correct": false },
+        { "id": "d", "name": "Pseudomonas aeruginosa", "correct": false }
+      ]
+    },
+    {
+      "id": "42",
+      "question_name": "Which virus is responsible for causing AIDS?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "HIV (Human Immunodeficiency Virus)", "correct": true },
+        { "id": "b", "name": "Hepatitis B virus", "correct": false },
+        { "id": "c", "name": "Influenza virus", "correct": false },
+        { "id": "d", "name": "Ebola virus", "correct": false }
+      ]
+    },
+    {
+      "id": "43",
+      "question_name": "Which bacterium is known for causing food poisoning due to its production of toxins?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Clostridium botulinum", "correct": true },
+        { "id": "b", "name": "Streptococcus pyogenes", "correct": false },
+        { "id": "c", "name": "Salmonella typhi", "correct": false },
+        { "id": "d", "name": "Campylobacter jejuni", "correct": false }
+      ]
+    },
+    {
+      "id": "44",
+      "question_name": "Which protozoan parasite causes malaria?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Plasmodium falciparum", "correct": true },
+        { "id": "b", "name": "Entamoeba histolytica", "correct": false },
+        { "id": "c", "name": "Toxoplasma gondii", "correct": false },
+        { "id": "d", "name": "Giardia lamblia", "correct": false }
+      ]
+    },
+    {
+      "id": "45",
+      "question_name": "Which virus is responsible for causing chickenpox?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Varicella-zoster virus", "correct": true },
+        { "id": "b", "name": "Human papillomavirus", "correct": false },
+        { "id": "c", "name": "Epstein-Barr virus", "correct": false },
+        { "id": "d", "name": "Rabies virus", "correct": false }
+      ]
+    },
+    {
+      "id": "46",
+      "question_name": "Which bacterium causes syphilis?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Treponema pallidum", "correct": true },
+        { "id": "b", "name": "Neisseria gonorrhoeae", "correct": false },
+        { "id": "c", "name": "Chlamydia trachomatis", "correct": false },
+        { "id": "d", "name": "Haemophilus influenzae", "correct": false }
+      ]
+    },
+    {
+      "id": "47",
+      "question_name": "Which fungus is responsible for causing athlete's foot?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Trichophyton rubrum", "correct": true },
+        { "id": "b", "name": "Candida albicans", "correct": false },
+        { "id": "c", "name": "Aspergillus fumigatus", "correct": false },
+        { "id": "d", "name": "Cryptococcus neoformans", "correct": false }
+      ]
+    },
+    {
+      "id": "48",
+      "question_name": "Which bacterium causes urinary tract infections (UTIs) in humans?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Escherichia coli", "correct": true },
+        { "id": "b", "name": "Staphylococcus aureus", "correct": false },
+        { "id": "c", "name": "Pseudomonas aeruginosa", "correct": false },
+        { "id": "d", "name": "Salmonella typhi", "correct": false }
+      ]
+    },
+    {
+      "id": "49",
+      "question_name": "Which virus is responsible for causing hepatitis B?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Hepatitis B virus", "correct": true },
+        { "id": "b", "name": "Hepatitis A virus", "correct": false },
+        { "id": "c", "name": "Hepatitis C virus", "correct": false },
+        { "id": "d", "name": "Hepatitis E virus", "correct": false }
+      ]
+    },
+    {
+      "id": "50",
+      "question_name": "Which bacterium is responsible for causing cholera?",
+      "difficulty_level": 1,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Vibrio cholerae", "correct": true },
+        { "id": "b", "name": "Escherichia coli", "correct": false },
+        { "id": "c", "name": "Salmonella enterica", "correct": false },
+        { "id": "d", "name": "Shigella sonnei", "correct": false }
+      ]
+    },
+    {
+      "id": "51",
+      "question_name": "Which bacterium is responsible for causing botulism?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Clostridium botulinum", "correct": true },
+        { "id": "b", "name": "Clostridium difficile", "correct": false },
+        { "id": "c", "name": "Clostridium perfringens", "correct": false },
+        { "id": "d", "name": "Clostridium tetani", "correct": false }
+      ]
+    },
+    {
+      "id": "52",
+      "question_name": "Which bacterium is primarily associated with peptic ulcer disease?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Helicobacter pylori", "correct": true },
+        { "id": "b", "name": "Escherichia coli", "correct": false },
+        { "id": "c", "name": "Staphylococcus aureus", "correct": false },
+        { "id": "d", "name": "Salmonella enterica", "correct": false }
+      ]
+    },
+    {
+      "id": "53",
+      "question_name": "Which virus is responsible for causing cervical cancer?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Human papillomavirus (HPV)", "correct": true },
+        { "id": "b", "name": "Hepatitis C virus", "correct": false },
+        { "id": "c", "name": "Epstein-Barr virus", "correct": false },
+        { "id": "d", "name": "Human immunodeficiency virus (HIV)", "correct": false }
+      ]
+    },
+    {
+      "id": "54",
+      "question_name": "Which protozoan is responsible for causing African sleeping sickness?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Trypanosoma brucei", "correct": true },
+        { "id": "b", "name": "Trypanosoma cruzi", "correct": false },
+        { "id": "c", "name": "Plasmodium falciparum", "correct": false },
+        { "id": "d", "name": "Leishmania donovani", "correct": false }
+      ]
+    },
+    {
+      "id": "55",
+      "question_name": "Which bacterium is known for causing severe diarrhea and colitis, often after antibiotic use?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Clostridium difficile", "correct": true },
+        { "id": "b", "name": "Escherichia coli", "correct": false },
+        { "id": "c", "name": "Salmonella typhi", "correct": false },
+        { "id": "d", "name": "Vibrio cholerae", "correct": false }
+      ]
+    },
+    {
+      "id": "56",
+      "question_name": "Which bacterium is responsible for causing Lyme disease?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Borrelia burgdorferi", "correct": true },
+        { "id": "b", "name": "Leptospira interrogans", "correct": false },
+        { "id": "c", "name": "Treponema pallidum", "correct": false },
+        { "id": "d", "name": "Rickettsia rickettsii", "correct": false }
+      ]
+    },
+    {
+      "id": "57",
+      "question_name": "Which fungus is responsible for causing histoplasmosis?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Histoplasma capsulatum", "correct": true },
+        { "id": "b", "name": "Coccidioides immitis", "correct": false },
+        { "id": "c", "name": "Aspergillus fumigatus", "correct": false },
+        { "id": "d", "name": "Candida albicans", "correct": false }
+      ]
+    },
+    {
+      "id": "58",
+      "question_name": "Which virus is responsible for causing German measles?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Rubella virus", "correct": true },
+        { "id": "b", "name": "Rubeola virus", "correct": false },
+        { "id": "c", "name": "Varicella-zoster virus", "correct": false },
+        { "id": "d", "name": "Mumps virus", "correct": false }
+      ]
+    },
+    {
+      "id": "59",
+      "question_name": "Which bacterium is responsible for causing Legionnaires' disease?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Legionella pneumophila", "correct": true },
+        { "id": "b", "name": "Klebsiella pneumoniae", "correct": false },
+        { "id": "c", "name": "Mycoplasma pneumoniae", "correct": false },
+        { "id": "d", "name": "Chlamydia pneumoniae", "correct": false }
+      ]
+    },
+    {
+      "id": "60",
+      "question_name": "Which virus is responsible for causing infectious mononucleosis, commonly known as mono?",
+      "difficulty_level": 2,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Epstein-Barr virus (EBV)", "correct": true },
+        { "id": "b", "name": "Cytomegalovirus (CMV)", "correct": false },
+        { "id": "c", "name": "Herpes simplex virus (HSV)", "correct": false },
+        { "id": "d", "name": "Varicella-zoster virus (VZV)", "correct": false }
+      ]
+    },
+    {
+      "id": "61",
+      "question_name": "Which bacterium is known for causing whooping cough?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Bordetella pertussis", "correct": true },
+        { "id": "b", "name": "Haemophilus influenzae", "correct": false },
+        { "id": "c", "name": "Streptococcus pneumoniae", "correct": false },
+        { "id": "d", "name": "Neisseria meningitidis", "correct": false }
+      ]
+    },
+    {
+      "id": "62",
+      "question_name": "Which virus is responsible for causing severe acute respiratory syndrome (SARS)?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "SARS-CoV (Severe Acute Respiratory Syndrome Coronavirus)", "correct": true },
+        { "id": "b", "name": "MERS-CoV (Middle East Respiratory Syndrome Coronavirus)", "correct": false },
+        { "id": "c", "name": "Influenza A virus", "correct": false },
+        { "id": "d", "name": "Respiratory syncytial virus", "correct": false }
+      ]
+    },
+    {
+      "id": "63",
+      "question_name": "Which bacterium is primarily responsible for causing gas gangrene?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Clostridium perfringens", "correct": true },
+        { "id": "b", "name": "Clostridium botulinum", "correct": false },
+        { "id": "c", "name": "Clostridium tetani", "correct": false },
+        { "id": "d", "name": "Clostridium difficile", "correct": false }
+      ]
+    },
+    {
+      "id": "64",
+      "question_name": "Which protozoan is responsible for causing toxoplasmosis?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Toxoplasma gondii", "correct": true },
+        { "id": "b", "name": "Giardia lamblia", "correct": false },
+        { "id": "c", "name": "Entamoeba histolytica", "correct": false },
+        { "id": "d", "name": "Leishmania donovani", "correct": false }
+      ]
+    },
+    {
+      "id": "65",
+      "question_name": "Which virus is responsible for causing hemorrhagic fever with renal syndrome (HFRS)?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Hantavirus", "correct": true },
+        { "id": "b", "name": "Ebola virus", "correct": false },
+        { "id": "c", "name": "Marburg virus", "correct": false },
+        { "id": "d", "name": "Lassa virus", "correct": false }
+      ]
+    },
+    {
+      "id": "66",
+      "question_name": "Which bacterium is responsible for causing Q fever?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Coxiella burnetii", "correct": true },
+        { "id": "b", "name": "Rickettsia rickettsii", "correct": false },
+        { "id": "c", "name": "Brucella abortus", "correct": false },
+        { "id": "d", "name": "Francisella tularensis", "correct": false }
+      ]
+    },
+    {
+      "id": "67",
+      "question_name": "Which fungus is primarily associated with causing cryptococcal meningitis?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Cryptococcus neoformans", "correct": true },
+        { "id": "b", "name": "Aspergillus fumigatus", "correct": false },
+        { "id": "c", "name": "Candida albicans", "correct": false },
+        { "id": "d", "name": "Histoplasma capsulatum", "correct": false }
+      ]
+    },
+    {
+      "id": "68",
+      "question_name": "Which bacterium is known for causing melioidosis?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Burkholderia pseudomallei", "correct": true },
+        { "id": "b", "name": "Pseudomonas aeruginosa", "correct": false },
+        { "id": "c", "name": "Acinetobacter baumannii", "correct": false },
+        { "id": "d", "name": "Stenotrophomonas maltophilia", "correct": false }
+      ]
+    },
+    {
+      "id": "69",
+      "question_name": "Which protozoan is known for causing primary amoebic meningoencephalitis (PAM)?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Naegleria fowleri", "correct": true },
+        { "id": "b", "name": "Acanthamoeba castellanii", "correct": false },
+        { "id": "c", "name": "Balamuthia mandrillaris", "correct": false },
+        { "id": "d", "name": "Entamoeba histolytica", "correct": false }
+      ]
+    },
+    {
+      "id": "70",
+      "question_name": "Which virus is responsible for causing Lassa fever?",
+      "difficulty_level": 3,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Lassa virus", "correct": true },
+        { "id": "b", "name": "Ebola virus", "correct": false },
+        { "id": "c", "name": "Marburg virus", "correct": false },
+        { "id": "d", "name": "Hantavirus", "correct": false }
+      ]
+    },
+    {
+      "id": "71",
+      "question_name": "Which bacterium is known for causing tularemia?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Francisella tularensis", "correct": true },
+        { "id": "b", "name": "Brucella abortus", "correct": false },
+        { "id": "c", "name": "Yersinia pestis", "correct": false },
+        { "id": "d", "name": "Bacillus anthracis", "correct": false }
+      ]
+    },
+    {
+      "id": "72",
+      "question_name": "Which virus is responsible for causing Crimean-Congo hemorrhagic fever (CCHF)?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Nairovirus", "correct": true },
+        { "id": "b", "name": "Flavivirus", "correct": false },
+        { "id": "c", "name": "Arenavirus", "correct": false },
+        { "id": "d", "name": "Bunyavirus", "correct": false }
+      ]
+    },
+    {
+      "id": "73",
+      "question_name": "Which bacterium is known for causing glanders?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Burkholderia mallei", "correct": true },
+        { "id": "b", "name": "Burkholderia pseudomallei", "correct": false },
+        { "id": "c", "name": "Pseudomonas aeruginosa", "correct": false },
+        { "id": "d", "name": "Acinetobacter baumannii", "correct": false }
+      ]
+    },
+    {
+      "id": "74",
+      "question_name": "Which virus is responsible for causing Marburg hemorrhagic fever?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Marburg virus", "correct": true },
+        { "id": "b", "name": "Ebola virus", "correct": false },
+        { "id": "c", "name": "Lassa virus", "correct": false },
+        { "id": "d", "name": "Hantavirus", "correct": false }
+      ]
+    },
+    {
+      "id": "75",
+      "question_name": "Which bacterium is known for causing melioidosis?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Burkholderia pseudomallei", "correct": true },
+        { "id": "b", "name": "Burkholderia mallei", "correct": false },
+        { "id": "c", "name": "Pseudomonas aeruginosa", "correct": false },
+        { "id": "d", "name": "Acinetobacter baumannii", "correct": false }
+      ]
+    },
+    {
+      "id": "76",
+      "question_name": "Which protozoan is known for causing Chagas disease?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Trypanosoma cruzi", "correct": true },
+        { "id": "b", "name": "Trypanosoma brucei", "correct": false },
+        { "id": "c", "name": "Leishmania donovani", "correct": false },
+        { "id": "d", "name": "Plasmodium falciparum", "correct": false }
+      ]
+    },
+    {
+      "id": "77",
+      "question_name": "Which virus is responsible for causing Nipah virus infection?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Nipah virus", "correct": true },
+        { "id": "b", "name": "Hendra virus", "correct": false },
+        { "id": "c", "name": "Rift Valley fever virus", "correct": false },
+        { "id": "d", "name": "Crimean-Congo hemorrhagic fever virus", "correct": false }
+      ]
+    },
+    {
+      "id": "78",
+      "question_name": "Which bacterium is known for causing Brucellosis?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Brucella abortus", "correct": true },
+        { "id": "b", "name": "Brucella melitensis", "correct": false },
+        { "id": "c", "name": "Brucella suis", "correct": false },
+        { "id": "d", "name": "Brucella canis", "correct": false }
+      ]
+    },
+    {
+      "id": "79",
+      "question_name": "Which virus is known for causing Kyasanur Forest disease (KFD)?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Kyasanur Forest disease virus", "correct": true },
+        { "id": "b", "name": "Dengue virus", "correct": false },
+        { "id": "c", "name": "Zika virus", "correct": false },
+        { "id": "d", "name": "Chikungunya virus", "correct": false }
+      ]
+    },
+    {
+      "id": "80",
+      "question_name": "Which bacterium is responsible for causing yersiniosis?",
+      "difficulty_level": 4,
+      "subject": "Microbiology",
+      "options": [
+        { "id": "a", "name": "Yersinia enterocolitica", "correct": true },
+        { "id": "b", "name": "Yersinia pestis", "correct": false },
+        { "id": "c", "name": "Yersinia pseudotuberculosis", "correct": false },
+        { "id": "d", "name": "Shigella dysenteriae", "correct": false }
+      ]
+    },
+    {
+      "id": "81",
+      "question_name": "What is the normal range of body temperature in Celsius?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "36.1 to 37.2", "correct": true, "description": "The normal body temperature range is typically between 36.1 and 37.2 degrees Celsius." },
+        { "id": "b", "name": "35.0 to 36.0", "correct": false, "description": "This range is generally considered below normal." },
+        { "id": "c", "name": "37.5 to 38.5", "correct": false, "description": "This range is typically considered above normal." },
+        { "id": "d", "name": "38.0 to 39.0", "correct": false, "description": "This range indicates a fever." }
+      ]
+    },
+    {
+      "id": "82",
+      "question_name": "Which vitamin is known as ascorbic acid?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Vitamin A", "correct": false, "description": "Vitamin A is also known as retinol." },
+        { "id": "b", "name": "Vitamin B12", "correct": false, "description": "Vitamin B12 is also known as cobalamin." },
+        { "id": "c", "name": "Vitamin C", "correct": true, "description": "Vitamin C is also known as ascorbic acid." },
+        { "id": "d", "name": "Vitamin D", "correct": false, "description": "Vitamin D is also known as calciferol." }
+      ]
+    },
+    {
+      "id": "83",
+      "question_name": "What is the common term for myocardial infarction?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Stroke", "correct": false, "description": "A stroke is a cerebrovascular accident." },
+        { "id": "b", "name": "Heart attack", "correct": true, "description": "Myocardial infarction is commonly known as a heart attack." },
+        { "id": "c", "name": "Angina", "correct": false, "description": "Angina is chest pain due to reduced blood flow to the heart." },
+        { "id": "d", "name": "Arrhythmia", "correct": false, "description": "Arrhythmia is an irregular heartbeat." }
+      ]
+    },
+    {
+      "id": "84",
+      "question_name": "Which organ is primarily affected by hepatitis?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Heart", "correct": false, "description": "The heart is not primarily affected by hepatitis." },
+        { "id": "b", "name": "Kidneys", "correct": false, "description": "The kidneys are not primarily affected by hepatitis." },
+        { "id": "c", "name": "Liver", "correct": true, "description": "Hepatitis primarily affects the liver." },
+        { "id": "d", "name": "Lungs", "correct": false, "description": "The lungs are not primarily affected by hepatitis." }
+      ]
+    },
+    {
+      "id": "85",
+      "question_name": "What is the primary function of red blood cells?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Fight infections", "correct": false, "description": "White blood cells fight infections." },
+        { "id": "b", "name": "Transport oxygen", "correct": true, "description": "Red blood cells transport oxygen to the body's tissues." },
+        { "id": "c", "name": "Clot blood", "correct": false, "description": "Platelets are responsible for blood clotting." },
+        { "id": "d", "name": "Produce hormones", "correct": false, "description": "Endocrine glands produce hormones." }
+      ]
+    },
+    {
+      "id": "86",
+      "question_name": "Which disease is caused by a deficiency of insulin?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Diabetes mellitus", "correct": true, "description": "Diabetes mellitus is caused by a deficiency of insulin." },
+        { "id": "b", "name": "Hypothyroidism", "correct": false, "description": "Hypothyroidism is caused by a deficiency of thyroid hormones." },
+        { "id": "c", "name": "Addison's disease", "correct": false, "description": "Addison's disease is caused by a deficiency of adrenal hormones." },
+        { "id": "d", "name": "Cushing's syndrome", "correct": false, "description": "Cushing's syndrome is caused by excess cortisol." }
+      ]
+    },
+    {
+      "id": "87",
+      "question_name": "What is the normal adult blood pressure range?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "120/80 mmHg", "correct": true, "description": "The normal blood pressure range for adults is around 120/80 mmHg." },
+        { "id": "b", "name": "140/90 mmHg", "correct": false, "description": "This range is considered high blood pressure." },
+        { "id": "c", "name": "100/70 mmHg", "correct": false, "description": "This is on the lower end but still within normal limits." },
+        { "id": "d", "name": "160/100 mmHg", "correct": false, "description": "This range indicates hypertension." }
+      ]
+    },
+    {
+      "id": "88",
+      "question_name": "Which condition is characterized by the inflammation of the joints?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Arthritis", "correct": true, "description": "Arthritis is characterized by the inflammation of the joints." },
+        { "id": "b", "name": "Osteoporosis", "correct": false, "description": "Osteoporosis is characterized by weak and brittle bones." },
+        { "id": "c", "name": "Fibromyalgia", "correct": false, "description": "Fibromyalgia is characterized by widespread musculoskeletal pain." },
+        { "id": "d", "name": "Gout", "correct": false, "description": "Gout is a form of arthritis caused by excess uric acid." }
+      ]
+    },
+    {
+      "id": "89",
+      "question_name": "Which organ is responsible for filtering blood and producing urine?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Heart", "correct": false, "description": "The heart pumps blood throughout the body." },
+        { "id": "b", "name": "Lungs", "correct": false, "description": "The lungs are responsible for gas exchange." },
+        { "id": "c", "name": "Kidneys", "correct": true, "description": "The kidneys filter blood and produce urine." },
+        { "id": "d", "name": "Liver", "correct": false, "description": "The liver detoxifies blood and produces bile." }
+      ]
+    },
+    {
+      "id": "90",
+      "question_name": "Which type of blood cell is primarily involved in immune responses?",
+      "difficulty_level": 1,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Red blood cells", "correct": false, "description": "Red blood cells transport oxygen." },
+        { "id": "b", "name": "Platelets", "correct": false, "description": "Platelets are involved in blood clotting." },
+        { "id": "c", "name": "White blood cells", "correct": true, "description": "White blood cells are primarily involved in immune responses." },
+        { "id": "d", "name": "Plasma cells", "correct": false, "description": "Plasma cells produce antibodies." }
+      ]
+    },
+    {
+      "id": "91",
+      "question_name": "Which condition is characterized by high levels of cortisol?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Addison's disease", "correct": false, "description": "Addison's disease is characterized by low levels of cortisol." },
+        { "id": "b", "name": "Cushing's syndrome", "correct": true, "description": "Cushing's syndrome is characterized by high levels of cortisol." },
+        { "id": "c", "name": "Graves' disease", "correct": false, "description": "Graves' disease is characterized by high levels of thyroid hormones." },
+        { "id": "d", "name": "Hashimoto's thyroiditis", "correct": false, "description": "Hashimoto's thyroiditis is characterized by hypothyroidism." }
+      ]
+    },
+    {
+      "id": "92",
+      "question_name": "Which heart valve is most commonly affected in rheumatic heart disease?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Aortic valve", "correct": false, "description": "The aortic valve is less commonly affected in rheumatic heart disease." },
+        { "id": "b", "name": "Mitral valve", "correct": true, "description": "The mitral valve is most commonly affected in rheumatic heart disease." },
+        { "id": "c", "name": "Pulmonary valve", "correct": false, "description": "The pulmonary valve is rarely affected in rheumatic heart disease." },
+        { "id": "d", "name": "Tricuspid valve", "correct": false, "description": "The tricuspid valve is less commonly affected in rheumatic heart disease." }
+      ]
+    },
+    {
+      "id": "93",
+      "question_name": "What is the primary cause of chronic bronchitis?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Allergic reactions", "correct": false, "description": "Allergic reactions are not the primary cause of chronic bronchitis." },
+        { "id": "b", "name": "Smoking", "correct": true, "description": "Smoking is the primary cause of chronic bronchitis." },
+        { "id": "c", "name": "Viral infections", "correct": false, "description": "Viral infections can cause acute bronchitis, not chronic bronchitis." },
+        { "id": "d", "name": "Bacterial infections", "correct": false, "description": "Bacterial infections are less commonly the primary cause of chronic bronchitis." }
+      ]
+    },
+    {
+      "id": "94",
+      "question_name": "Which condition is diagnosed using the Mantoux test?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Tuberculosis", "correct": true, "description": "The Mantoux test is used to diagnose tuberculosis." },
+        { "id": "b", "name": "HIV/AIDS", "correct": false, "description": "The Mantoux test is not used to diagnose HIV/AIDS." },
+        { "id": "c", "name": "Malaria", "correct": false, "description": "The Mantoux test is not used to diagnose malaria." },
+        { "id": "d", "name": "Hepatitis", "correct": false, "description": "The Mantoux test is not used to diagnose hepatitis." }
+      ]
+    },
+    {
+      "id": "95",
+      "question_name": "Which electrolyte imbalance is most commonly seen in Addison's disease?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Hyperkalemia", "correct": true, "description": "Hyperkalemia is commonly seen in Addison's disease due to decreased aldosterone." },
+        { "id": "b", "name": "Hypokalemia", "correct": false, "description": "Hypokalemia is not commonly seen in Addison's disease." },
+        { "id": "c", "name": "Hypernatremia", "correct": false, "description": "Hypernatremia is not commonly seen in Addison's disease." },
+        { "id": "d", "name": "Hyponatremia", "correct": false, "description": "Hyponatremia is seen in Addison's disease but less commonly than hyperkalemia." }
+      ]
+    },
+    {
+      "id": "96",
+      "question_name": "Which condition is characterized by episodic chest pain due to coronary artery spasm?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Stable angina", "correct": false, "description": "Stable angina is caused by fixed coronary artery stenosis." },
+        { "id": "b", "name": "Unstable angina", "correct": false, "description": "Unstable angina is caused by ruptured atherosclerotic plaque and thrombosis." },
+        { "id": "c", "name": "Prinzmetal's angina", "correct": true, "description": "Prinzmetal's angina is characterized by coronary artery spasm." },
+        { "id": "d", "name": "Myocardial infarction", "correct": false, "description": "Myocardial infarction is caused by prolonged ischemia leading to heart muscle death." }
+      ]
+    },
+    {
+      "id": "97",
+      "question_name": "Which hormone is primarily responsible for regulating blood calcium levels?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Insulin", "correct": false, "description": "Insulin regulates blood glucose levels." },
+        { "id": "b", "name": "Thyroxine", "correct": false, "description": "Thyroxine regulates metabolism." },
+        { "id": "c", "name": "Parathyroid hormone", "correct": true, "description": "Parathyroid hormone primarily regulates blood calcium levels." },
+        { "id": "d", "name": "Cortisol", "correct": false, "description": "Cortisol regulates stress response and metabolism." }
+      ]
+    },
+    {
+      "id": "98",
+      "question_name": "Which medication is commonly used as a first-line treatment for hypertension?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Diuretics", "correct": true, "description": "Diuretics are commonly used as a first-line treatment for hypertension." },
+        { "id": "b", "name": "Beta-blockers", "correct": false, "description": "Beta-blockers are used but not typically as a first-line treatment for hypertension." },
+        { "id": "c", "name": "ACE inhibitors", "correct": false, "description": "ACE inhibitors are commonly used but not the first-line treatment for hypertension." },
+        { "id": "d", "name": "Calcium channel blockers", "correct": false, "description": "Calcium channel blockers are used but not typically as a first-line treatment for hypertension." }
+      ]
+    },
+    {
+      "id": "99",
+      "question_name": "Which disease is caused by the Borrelia burgdorferi bacterium?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Lyme disease", "correct": true, "description": "Lyme disease is caused by the Borrelia burgdorferi bacterium." },
+        { "id": "b", "name": "Rocky Mountain spotted fever", "correct": false, "description": "Rocky Mountain spotted fever is caused by Rickettsia rickettsii." },
+        { "id": "c", "name": "Typhoid fever", "correct": false, "description": "Typhoid fever is caused by Salmonella typhi." },
+        { "id": "d", "name": "Syphilis", "correct": false, "description": "Syphilis is caused by Treponema pallidum." }
+      ]
+    },
+    {
+      "id": "100",
+      "question_name": "Which vitamin deficiency causes rickets in children?",
+      "difficulty_level": 2,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Vitamin A", "correct": false, "description": "Vitamin A deficiency causes night blindness." },
+        { "id": "b", "name": "Vitamin B12", "correct": false, "description": "Vitamin B12 deficiency causes pernicious anemia." },
+        { "id": "c", "name": "Vitamin C", "correct": false, "description": "Vitamin C deficiency causes scurvy." },
+        { "id": "d", "name": "Vitamin D", "correct": true, "description": "Vitamin D deficiency causes rickets in children." }
+      ]
+    },
+    {
+      "id": "101",
+      "question_name": "Which genetic disorder is characterized by the deletion of the long arm of chromosome 22?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Down syndrome", "correct": false, "description": "Down syndrome is characterized by trisomy 21." },
+        { "id": "b", "name": "Turner syndrome", "correct": false, "description": "Turner syndrome is characterized by a missing or incomplete X chromosome." },
+        { "id": "c", "name": "DiGeorge syndrome", "correct": true, "description": "DiGeorge syndrome is characterized by the deletion of the long arm of chromosome 22." },
+        { "id": "d", "name": "Klinefelter syndrome", "correct": false, "description": "Klinefelter syndrome is characterized by an extra X chromosome in males." }
+      ]
+    },
+    {
+      "id": "102",
+      "question_name": "Which type of hypersensitivity reaction is mediated by IgE antibodies?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Type I hypersensitivity", "correct": true, "description": "Type I hypersensitivity is mediated by IgE antibodies." },
+        { "id": "b", "name": "Type II hypersensitivity", "correct": false, "description": "Type II hypersensitivity is mediated by IgG and IgM antibodies." },
+        { "id": "c", "name": "Type III hypersensitivity", "correct": false, "description": "Type III hypersensitivity involves immune complex formation." },
+        { "id": "d", "name": "Type IV hypersensitivity", "correct": false, "description": "Type IV hypersensitivity is mediated by T cells." }
+      ]
+    },
+    {
+      "id": "103",
+      "question_name": "Which type of lung cancer is most strongly associated with smoking?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Adenocarcinoma", "correct": false, "description": "Adenocarcinoma is less strongly associated with smoking compared to other types." },
+        { "id": "b", "name": "Small cell lung cancer", "correct": true, "description": "Small cell lung cancer is most strongly associated with smoking." },
+        { "id": "c", "name": "Squamous cell carcinoma", "correct": false, "description": "Squamous cell carcinoma is associated with smoking but not as strongly as small cell lung cancer." },
+        { "id": "d", "name": "Large cell carcinoma", "correct": false, "description": "Large cell carcinoma has a moderate association with smoking." }
+      ]
+    },
+    {
+      "id": "104",
+      "question_name": "Which inflammatory bowel disease is characterized by the presence of non-caseating granulomas?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Ulcerative colitis", "correct": false, "description": "Ulcerative colitis does not typically feature non-caseating granulomas." },
+        { "id": "b", "name": "Crohn's disease", "correct": true, "description": "Crohn's disease is characterized by the presence of non-caseating granulomas." },
+        { "id": "c", "name": "Irritable bowel syndrome", "correct": false, "description": "Irritable bowel syndrome does not involve granulomas." },
+        { "id": "d", "name": "Celiac disease", "correct": false, "description": "Celiac disease is characterized by villous atrophy." }
+      ]
+    },
+    {
+      "id": "105",
+      "question_name": "Which cardiac marker is most specific for myocardial infarction?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "CK-MB", "correct": false, "description": "CK-MB is sensitive but less specific than troponin for myocardial infarction." },
+        { "id": "b", "name": "Myoglobin", "correct": false, "description": "Myoglobin rises early but is not specific for myocardial infarction." },
+        { "id": "c", "name": "Troponin", "correct": true, "description": "Troponin is the most specific marker for myocardial infarction." },
+        { "id": "d", "name": "LDH", "correct": false, "description": "LDH is less specific and rises later than troponin." }
+      ]
+    },
+    {
+      "id": "106",
+      "question_name": "Which pathogen is most commonly associated with peptic ulcer disease?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Helicobacter pylori", "correct": true, "description": "Helicobacter pylori is most commonly associated with peptic ulcer disease." },
+        { "id": "b", "name": "Escherichia coli", "correct": false, "description": "Escherichia coli is not typically associated with peptic ulcer disease." },
+        { "id": "c", "name": "Staphylococcus aureus", "correct": false, "description": "Staphylococcus aureus is not typically associated with peptic ulcer disease." },
+        { "id": "d", "name": "Streptococcus pneumoniae", "correct": false, "description": "Streptococcus pneumoniae is not typically associated with peptic ulcer disease." }
+      ]
+    },
+    {
+      "id": "107",
+      "question_name": "Which autoimmune disease is characterized by the production of autoantibodies against acetylcholine receptors?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Multiple sclerosis", "correct": false, "description": "Multiple sclerosis involves demyelination but not autoantibodies against acetylcholine receptors." },
+        { "id": "b", "name": "Myasthenia gravis", "correct": true, "description": "Myasthenia gravis is characterized by the production of autoantibodies against acetylcholine receptors." },
+        { "id": "c", "name": "Systemic lupus erythematosus", "correct": false, "description": "Systemic lupus erythematosus involves autoantibodies but not against acetylcholine receptors." },
+        { "id": "d", "name": "Rheumatoid arthritis", "correct": false, "description": "Rheumatoid arthritis involves autoantibodies but not against acetylcholine receptors." }
+      ]
+    },
+    {
+      "id": "108",
+      "question_name": "Which electrolyte imbalance is most commonly associated with diabetic ketoacidosis?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Hypercalcemia", "correct": false, "description": "Hypercalcemia is not typically associated with diabetic ketoacidosis." },
+        { "id": "b", "name": "Hyperkalemia", "correct": true, "description": "Hyperkalemia is commonly associated with diabetic ketoacidosis." },
+        { "id": "c", "name": "Hypernatremia", "correct": false, "description": "Hypernatremia is less commonly associated with diabetic ketoacidosis." },
+        { "id": "d", "name": "Hypokalemia", "correct": false, "description": "Hypokalemia is less commonly associated with diabetic ketoacidosis." }
+      ]
+    },
+    {
+      "id": "109",
+      "question_name": "Which disorder is characterized by the progressive loss of dopamine-producing neurons in the substantia nigra?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Alzheimer's disease", "correct": false, "description": "Alzheimer's disease is characterized by the accumulation of amyloid plaques and tau tangles." },
+        { "id": "b", "name": "Parkinson's disease", "correct": true, "description": "Parkinson's disease is characterized by the progressive loss of dopamine-producing neurons in the substantia nigra." },
+        { "id": "c", "name": "Multiple sclerosis", "correct": false, "description": "Multiple sclerosis is characterized by demyelination of neurons." },
+        { "id": "d", "name": "Huntington's disease", "correct": false, "description": "Huntington's disease is characterized by the accumulation of abnormal huntingtin protein." }
+      ]
+    },
+    {
+      "id": "110",
+      "question_name": "Which pathogen is most commonly associated with infectious mononucleosis?",
+      "difficulty_level": 3,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Cytomegalovirus", "correct": false, "description": "Cytomegalovirus can cause mononucleosis-like symptoms but is less common." },
+        { "id": "b", "name": "Epstein-Barr virus", "correct": true, "description": "Epstein-Barr virus is most commonly associated with infectious mononucleosis." },
+        { "id": "c", "name": "Herpes simplex virus", "correct": false, "description": "Herpes simplex virus is not commonly associated with infectious mononucleosis." },
+        { "id": "d", "name": "Human papillomavirus", "correct": false, "description": "Human papillomavirus is not associated with infectious mononucleosis." }
+      ]
+    },
+    {
+      "id": "111",
+      "question_name": "Which neurological disorder is characterized by rapid progressive dementia, myoclonus, and periodic sharp wave complexes on EEG?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Creutzfeldt-Jakob disease", "correct": true, "description": "Creutzfeldt-Jakob disease (CJD) is characterized by rapid progressive dementia, myoclonus, and periodic sharp wave complexes on EEG." },
+        { "id": "b", "name": "Alzheimer's disease", "correct": false, "description": "Alzheimer's disease is characterized by progressive memory loss and cognitive decline." },
+        { "id": "c", "name": "Huntington's disease", "correct": false, "description": "Huntington's disease is characterized by progressive motor dysfunction and cognitive decline." },
+        { "id": "d", "name": "Parkinson's disease", "correct": false, "description": "Parkinson's disease is characterized by motor symptoms such as tremor and rigidity." }
+      ]
+    },
+    {
+      "id": "112",
+      "question_name": "Which autoimmune disorder primarily affects the peripheral nervous system with ascending muscle weakness?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Myasthenia gravis", "correct": false, "description": "Myasthenia gravis affects neuromuscular junctions but does not typically cause ascending muscle weakness." },
+        { "id": "b", "name": "Guillain-Barré syndrome", "correct": true, "description": "Guillain-Barré syndrome primarily affects the peripheral nervous system with ascending muscle weakness." },
+        { "id": "c", "name": "Multiple sclerosis", "correct": false, "description": "Multiple sclerosis affects the central nervous system with demyelination of neurons." },
+        { "id": "d", "name": "Amyotrophic lateral sclerosis", "correct": false, "description": "Amyotrophic lateral sclerosis affects motor neurons in the spinal cord and brainstem." }
+      ]
+    },
+    {
+      "id": "113",
+      "question_name": "Which type of cardiomyopathy is characterized by ventricular hypertrophy without dilation?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Dilated cardiomyopathy", "correct": false, "description": "Dilated cardiomyopathy is characterized by ventricular dilation." },
+        { "id": "b", "name": "Hypertrophic cardiomyopathy", "correct": true, "description": "Hypertrophic cardiomyopathy is characterized by ventricular hypertrophy without dilation." },
+        { "id": "c", "name": "Restrictive cardiomyopathy", "correct": false, "description": "Restrictive cardiomyopathy is characterized by impaired ventricular filling." },
+        { "id": "d", "name": "Arrhythmogenic right ventricular cardiomyopathy", "correct": false, "description": "Arrhythmogenic right ventricular cardiomyopathy is characterized by fibrofatty replacement of myocardium." }
+      ]
+    },
+    {
+      "id": "114",
+      "question_name": "Which syndrome is characterized by the triad of hypothyroidism, adrenal insufficiency, and ovarian failure?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Turner syndrome", "correct": false, "description": "Turner syndrome involves ovarian failure but not hypothyroidism or adrenal insufficiency." },
+        { "id": "b", "name": "Cushing's syndrome", "correct": false, "description": "Cushing's syndrome involves adrenal hyperfunction, not adrenal insufficiency." },
+        { "id": "c", "name": "Polyglandular autoimmune syndrome type II", "correct": true, "description": "Polyglandular autoimmune syndrome type II is characterized by the triad of hypothyroidism, adrenal insufficiency, and ovarian failure." },
+        { "id": "d", "name": "Klinefelter syndrome", "correct": false, "description": "Klinefelter syndrome involves testicular failure, not ovarian failure." }
+      ]
+    },
+    {
+      "id": "115",
+      "question_name": "Which type of renal stone is most likely to form in patients with chronic metabolic acidosis?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Calcium oxalate", "correct": false, "description": "Calcium oxalate stones are associated with hypercalciuria and hyperoxaluria." },
+        { "id": "b", "name": "Uric acid", "correct": true, "description": "Uric acid stones are more likely to form in patients with chronic metabolic acidosis." },
+        { "id": "c", "name": "Struvite", "correct": false, "description": "Struvite stones are associated with urinary tract infections." },
+        { "id": "d", "name": "Cystine", "correct": false, "description": "Cystine stones are associated with cystinuria, a genetic disorder." }
+      ]
+    },
+    {
+      "id": "116",
+      "question_name": "Which infectious disease is characterized by a biphasic fever pattern and a rash that begins on the wrists and ankles?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Typhoid fever", "correct": false, "description": "Typhoid fever has a prolonged fever and a different rash pattern." },
+        { "id": "b", "name": "Rocky Mountain spotted fever", "correct": true, "description": "Rocky Mountain spotted fever is characterized by a biphasic fever pattern and a rash that begins on the wrists and ankles." },
+        { "id": "c", "name": "Dengue fever", "correct": false, "description": "Dengue fever has a different rash pattern and fever course." },
+        { "id": "d", "name": "Measles", "correct": false, "description": "Measles has a distinct rash pattern and fever course." }
+      ]
+    },
+    {
+      "id": "117",
+      "question_name": "Which vasculitis is most commonly associated with hepatitis B virus infection?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Giant cell arteritis", "correct": false, "description": "Giant cell arteritis is not associated with hepatitis B virus infection." },
+        { "id": "b", "name": "Polyarteritis nodosa", "correct": true, "description": "Polyarteritis nodosa is most commonly associated with hepatitis B virus infection." },
+        { "id": "c", "name": "Granulomatosis with polyangiitis", "correct": false, "description": "Granulomatosis with polyangiitis (Wegener's) is associated with ANCA antibodies." },
+        { "id": "d", "name": "Kawasaki disease", "correct": false, "description": "Kawasaki disease primarily affects children and has an unknown etiology." }
+      ]
+    },
+    {
+      "id": "118",
+      "question_name": "Which endocrine disorder is characterized by hypersecretion of cortisol from an adrenal adenoma?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Cushing's disease", "correct": false, "description": "Cushing's disease involves hypersecretion of ACTH from the pituitary gland." },
+        { "id": "b", "name": "Pheochromocytoma", "correct": false, "description": "Pheochromocytoma involves hypersecretion of catecholamines from the adrenal medulla." },
+        { "id": "c", "name": "Adrenal hyperplasia", "correct": false, "description": "Adrenal hyperplasia involves bilateral hyperplasia of the adrenal glands." },
+        { "id": "d", "name": "Adrenal adenoma", "correct": true, "description": "Adrenal adenoma causes hypersecretion of cortisol, leading to Cushing's syndrome." }
+      ]
+    },
+    {
+      "id": "119",
+      "question_name": "Which type of shock is characterized by high cardiac output and low systemic vascular resistance?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Hypovolemic shock", "correct": false, "description": "Hypovolemic shock is characterized by low cardiac output and high systemic vascular resistance." },
+        { "id": "b", "name": "Cardiogenic shock", "correct": false, "description": "Cardiogenic shock is characterized by low cardiac output and high systemic vascular resistance." },
+        { "id": "c", "name": "Distributive shock", "correct": true, "description": "Distributive shock (e.g., septic shock) is characterized by high cardiac output and low systemic vascular resistance." },
+        { "id": "d", "name": "Obstructive shock", "correct": false, "description": "Obstructive shock is characterized by mechanical obstruction to blood flow." }
+      ]
+    },
+    {
+      "id": "120",
+      "question_name": "Which malignancy is most commonly associated with a paraneoplastic syndrome involving Lambert-Eaton myasthenic syndrome?",
+      "difficulty_level": 4,
+      "subject": "Medicine",
+      "options": [
+        { "id": "a", "name": "Small cell lung cancer", "correct": true, "description": "Small cell lung cancer is most commonly associated with Lambert-Eaton myasthenic syndrome (LEMS) as a paraneoplastic syndrome." },
+        { "id": "b", "name": "Non-small cell lung cancer", "correct": false, "description": "Non-small cell lung cancer is less commonly associated with LEMS." },
+        { "id": "c", "name": "Breast cancer", "correct": false, "description": "Breast cancer is not typically associated with LEMS." },
+        { "id": "d", "name": "Pancreatic cancer", "correct": false, "description": "Pancreatic cancer can have various paraneoplastic syndromes, but not commonly LEMS." }
+      ]
     }
   ]  
